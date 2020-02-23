@@ -112,6 +112,10 @@ void loop() {
 		// Schwelle wurde unterschritten und sobald die schwelle nicht mehr unterschritten ist wird gesendet 
 		if (UltraschallMessen() < ultraschwelle) {
 			lastPirTrigger = millis();
+			if(!bSendToDo){
+				Serial.println("FoundPlayer");
+			}
+				
 			bSendToDo = true;
 			delay(10);
 		} 
