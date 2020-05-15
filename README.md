@@ -4,6 +4,6 @@ Mit Ardoino R3 und Powershell Script ["nextplayer.ps1"](https://git.bawe.eu/bast
 
 
 ![Schaltung](./Schaltung.svg)
-![Semantic description of image](/Schaltung.svg "Image Title")
+![Semantic description of image](/Schaltung.png "Image Title")
 
 
