@@ -1,6 +1,6 @@
 # WinDart Motion Sensor (Ultraschall)
 
-Mit Ardoino R3 und Powershell Script ["nextplayer.ps1"](https://git.bawe.eu/bastian/windartoverlay/blob/master/nextplayer.ps1)
+Mit Ardoino R3 und Powershell Script ["nextplayer.ps1"](https://github.com/bawe/WindartOverlay/blob/master/nextplayer.ps1)
 
 |  |  |  |
 | ------ | ------ | ------ |
@@ -8,13 +8,13 @@ Mit Ardoino R3 und Powershell Script ["nextplayer.ps1"](https://git.bawe.eu/bast
 
 ## Funktion:
 Der Ardoino ist über USB mit den Windart PC verbunden, und sendet über dem COM-Port Daten.
-Auf dem Windart PC läuft ein [Powershell Script (Autostart)](https://git.bawe.eu/bastian/windartoverlay/blob/master/nextplayer.ps1) das die Daten entgegen nimmt - und bei Bedarf ein "Enter" an Windart sendet und zum nächsten Player weiterschaltet.
+Auf dem Windart PC läuft ein [Powershell Script (Autostart)](https://github.com/bawe/WindartOverlay/blob/master/nextplayer.ps1) das die Daten entgegen nimmt - und bei Bedarf ein "Enter" an Windart sendet und zum nächsten Player weiterschaltet.
 
 
 
 **Wie beim original Löwendart ist manchmal ein "winken" notwendig ;-)**
 
-PS: Um zu erkennen, ob eine Bewegung bereits erkannt wurde, kann noch [WindartOverlay](https://git.bawe.eu/bastian/windartoverlay) verwendet werden
+PS: Um zu erkennen, ob eine Bewegung bereits erkannt wurde, kann noch [WindartOverlay](https://github.com/bawe/WindartOverlay) verwendet werden
 
 
 ## Benötigt wird:
